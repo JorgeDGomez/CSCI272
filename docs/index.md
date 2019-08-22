@@ -9,9 +9,9 @@
 
 ## Lab instructions
 
-- These [lab instructions](docs/First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
+- These [lab instructions](First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
 
-- Common [command line commands](docs/cmd.md) for Windows/Linux/MacOS
+- Common [command line commands](cmd.md) for Windows/Linux/MacOS
 
 ## Compilers & IDEs
 
