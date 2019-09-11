@@ -3,9 +3,11 @@
 ## Notebooks
 
 - [Introduction to Object-Oriented Programing](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Into-to-OOP.ipynb)
+- [Classes](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Classes.ipynb)
 
-## Solutions
+## Assignments
 
+- [Class Definition & Objects](hw1.md)
 
 ## Lab instructions
 
