@@ -8,6 +8,7 @@
 ## Assignments
 
 - [Class Definition & Objects](hw1.md)
+  - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation.ipynb)
 
 ## Lab instructions
 
