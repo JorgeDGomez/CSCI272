@@ -1,5 +1,7 @@
 # CSCI 272: Object-Oriented Programming
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wildart/CSCI272/master)
+
 ## Notebooks
 
 - [Introduction to Object-Oriented Programing](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Into-to-OOP.ipynb)
