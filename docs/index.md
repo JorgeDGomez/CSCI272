@@ -10,8 +10,12 @@
 
 ## Assignments
 
-- [Class Definition & Objects](hw1.md)
-  - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation.ipynb)
+- HW1: [Class Definition & Objects](hw1.md)
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation.ipynb)
+
+- HW2: [Class Initialization & Operations](hw2.md)
+    - [Solution]()
+
 
 ## Lab instructions
 
