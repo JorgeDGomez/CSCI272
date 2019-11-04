@@ -25,7 +25,7 @@
 
 ## Labs
 
-- [Algebraic Calculator](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab1.ipynb)
+- [Algebraic Calculator](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201.ipynb)
 
 ## Compilers & IDEs
 
