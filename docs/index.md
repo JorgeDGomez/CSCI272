@@ -17,12 +17,15 @@
 - HW2: [Class Initialization & Operations](hw2.md)
     - [Solution]()
 
-
 ## Lab instructions
 
 - These [lab instructions](First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
 
 - Common [command line commands](cmd.md) for Windows/Linux/MacOS
+
+## Labs
+
+- [Algebraic Calculator](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab1.ipynb)
 
 ## Compilers & IDEs
 
