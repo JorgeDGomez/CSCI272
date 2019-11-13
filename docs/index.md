@@ -8,6 +8,7 @@
 - [Classes](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Classes.ipynb)
 - [Operators](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Operators.ipynb)
 - [Inheritance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Inheritance.ipynb)
+- [Polymorphism](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Polymorphism.ipynb)
 
 ## Assignments
 
@@ -26,6 +27,7 @@
 ## Labs
 
 - [Algebraic Calculator](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201.ipynb)
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201%20Solution.ipynb)
 
 ## Compilers & IDEs
 
