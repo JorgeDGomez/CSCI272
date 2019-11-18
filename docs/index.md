@@ -16,7 +16,7 @@
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation.ipynb)
 
 - HW2: [Class Initialization & Operations](hw2.md)
-    - [Solution]()
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation2.ipynb)
 
 ## Lab instructions
 
@@ -28,6 +28,10 @@
 
 - [Algebraic Calculator](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201.ipynb)
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201%20Solution.ipynb)
+- [Norm of vector space](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%202.ipynb)
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%202%20Solution.ipynb)
+
+
 
 ## Compilers & IDEs
 
@@ -35,4 +39,3 @@
 - [Dev-C++](https://www.bloodshed.net/devcpp.html)
 - [CodeLite](https://codelite.org/)
 - Cygwin: Follow first three installation steps of [this instruction](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/cygwin/)
-
