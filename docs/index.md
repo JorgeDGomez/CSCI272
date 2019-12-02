@@ -9,6 +9,7 @@
 - [Operators](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Operators.ipynb)
 - [Inheritance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Inheritance.ipynb)
 - [Polymorphism](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Polymorphism.ipynb)
+- [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
 
 ## Assignments
 
