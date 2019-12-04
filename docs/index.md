@@ -31,7 +31,8 @@
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%201%20Solution.ipynb)
 - [Norm of vector space](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%202.ipynb)
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%202%20Solution.ipynb)
-
+- [Distance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%203.ipynb)
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%203%20Solution.ipynb)
 
 
 ## Compilers & IDEs
