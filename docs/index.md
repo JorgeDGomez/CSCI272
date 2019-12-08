@@ -10,6 +10,7 @@
 - [Inheritance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Inheritance.ipynb)
 - [Polymorphism](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Polymorphism.ipynb)
 - [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
+- [Exceptions](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exceptions.ipynb)
 
 ## Assignments
 
