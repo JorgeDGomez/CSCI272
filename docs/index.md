@@ -16,6 +16,9 @@
 
 - [Midterm 1](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exam1.ipynb)
 - [Midterm 2](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exam2.ipynb)
+- [Review](https://www.learncpp.com/)
+    - Chapters: 8 -14
+    - Solve some quizes at the end of the each chapter.
 
 ## Assignments
 
