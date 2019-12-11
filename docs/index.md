@@ -12,6 +12,11 @@
 - [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
 - [Exceptions](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exceptions.ipynb)
 
+## Exams
+
+- [Midterm 1](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exam1.ipynb)
+- [Midterm 2](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exam2.ipynb)
+
 ## Assignments
 
 - HW1: [Class Definition & Objects](hw1.md)
@@ -20,11 +25,8 @@
 - HW2: [Class Initialization & Operations](hw2.md)
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Simulation2.ipynb)
 
-## Lab instructions
-
-- These [lab instructions](First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
-
-- Common [command line commands](cmd.md) for Windows/Linux/MacOS
+- HW3: [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Stack.ipynb)
+    - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Stack.ipynb)
 
 ## Labs
 
@@ -35,10 +37,21 @@
 - [Distance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%203.ipynb)
     - [Solution](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Lab%203%20Solution.ipynb)
 
+## Tools
 
-## Compilers & IDEs
+### Instructions
+
+- These [lab instructions](First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
+
+- Common [command line commands](cmd.md) for Windows/Linux/MacOS
+
+### Compilers & IDEs
 
 - [CodeBlocks](http://www.codeblocks.org/)
 - [Dev-C++](https://www.bloodshed.net/devcpp.html)
 - [CodeLite](https://codelite.org/)
 - Cygwin: Follow first three installation steps of [this instruction](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/cygwin/)
+
+### Online
+
+- https://onlinegdb.com
