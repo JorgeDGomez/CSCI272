@@ -1,0 +1,8 @@
+name: csci272-cling
+channels:
+  - conda-forge
+dependencies:
+  - xeus-cling=0.7.1
+  - jupyter
+  - rise
+  - xwidgets
