@@ -12,15 +12,17 @@
 - [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
 - [Exceptions](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exceptions.ipynb)
 
-## Exams
-
-- TBA
-
 ## Assignments
 
-- [House](house.md)
+
+- HW1. Class Definition & Objects: [House](house.md)
 
 ## Labs
+
+- [Lab1. Class Definition & Objects](lab1.md)
+
+
+## Exams
 
 - TBA
 
