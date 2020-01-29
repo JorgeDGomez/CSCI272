@@ -18,7 +18,7 @@
 
 ## Assignments
 
-- [House][house.md]
+- [House](house.md)
 
 ## Labs
 
