@@ -8,7 +8,7 @@ class Parasite {
     float resistance;       // resistance against drugs, in %
 
 public:
-    Parasite(float newReproductionRate, float newResistance);
+    Parasite(float newReproductionRate, float newResistance) : reproductionRate{newReproductionRate}, resistance{newResistance} {}
 
     float getReproductionRate();
     float getResistance();
@@ -18,7 +18,11 @@ public:
 };
 
 // Animal Class
+class Animal {
 
+public:
+    Animal(float initImmunity, int initNumParasiteCells) : numParasiteCells(initNumParasiteCells), immunity(initImmunity) {}
+};
 
 // Simulation Programm
 int main(){

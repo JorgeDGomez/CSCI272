@@ -9,7 +9,6 @@ Write a program that simulates the growth of **parasite population in an animal*
 - Identify objects that simulation uses from the above description
 - Identify objects' properties and responsibilities
 - Define C++ class for every object listing all possible members (data and functional) (10 pts)
-    - Make sure that every class has a **constructor** that initializes parameters using a **member initialized list**
     - All data members must have **private** access
     - Provide for each private data member a public method that allows access its value
         - Naming convention: You can name your data member as you wish, however any methods that provide access to the field have to be named as follows: *get<FieldName\>*
@@ -23,10 +22,21 @@ Write a program that simulates the growth of **parasite population in an animal*
     - program compiles without errors and warnings
     - use proper coding style (see below)
 
+### Parasite Class: Declaration
+- Update a **Parasite** class declaration in [lab1.cpp](lab1.cpp) file.
+- Include into the class definition all parasite properties:,
+    - a reproduction rate as `float` field `reproductionRate`
+    - a drug resistance as `float` field `resistance`
+- Provide to encapsulated fields access functional members: `getReproductionRate` and `getResistance`
+- Add functional members corresponding to parasite responsibilities:
+    - For *reproducibility*, add method `reproduce` that returns an object of the parasite if it successfully reproduced
+    - For *survival*, add method `survive` that returns `true` value if the parasite survived to the next iteration of the simulation, `false` otherwise.
+    - Both above responsibilities depend on an immunity of the animal to parasites, thus the animal `immunity` becomes a parameter to both methods.
+
 ### Animal Class: Declaration
 
 - Write a **Animal** class declaration in [lab1.cpp](lab1.cpp) file.
--  Similarly to **Parasite** class, include into the class definition all animal properties:
+- Similarly to **Parasite** class, include into the class definition all animal properties:
     - an immunity rate as `float` field `immunity` 
     - a number of parasites in the animal as `unsigned int` field `numParasiteCells`
 - Provide to encapsulated fields access functional members: `getImmunity` and `getParasiteNumber`
@@ -38,13 +48,13 @@ Write a program that simulates the growth of **parasite population in an animal*
 
 Implement `Parasite` class functional members (methods) in [lab1.cpp](lab1.cpp) file:
 
-- First, define default constructor which will set encapsulated fields to specified values
+- The default constructor is already provided to the class
 
 ### Animal Class: Implementation
 
 Implement `Animal` class functional members (methods)  in [lab1.cpp](lab1.cpp) file:
 
-- First, define default constructor which will set encapsulated fields to specified values
+- The default constructor is already provided to the class
 
 ## Submission
 
