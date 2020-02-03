@@ -15,11 +15,11 @@
 ## Assignments
 
 
-- HW1. Class Definition & Objects: [House](house.md)
+- [HW1. House](https://github.com/wildart/CSCI272/assign/house.md)
 
 ## Labs
 
-- [Lab1. Class Definition & Objects](lab1.md)
+- [Lab1. Class Definition & Objects](https://github.com/wildart/CSCI272/assign/lab1.md)
 
 
 ## Exams

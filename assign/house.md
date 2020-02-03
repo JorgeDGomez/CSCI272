@@ -1,5 +1,5 @@
 # Programming Assignment #1
-Due: Sun, Feb 8, 11:59 PM
+Due: Sun, Feb 16, 11:59 PM
 
 ## Objective:
 Upon completing this assignment, you should be able to implement a simple class, as well as gain a better understanding of the building and use of classes and objects.
