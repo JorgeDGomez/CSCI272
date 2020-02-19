@@ -49,6 +49,6 @@ You are required to test that your submission works properly before submission. 
 
 Program submissions should be done through the Blackboard.
 
-For HW #1, submit the following files:
+For Lab #2, submit the following files:
 
 - `mixed.cpp` & `mixed.h`
