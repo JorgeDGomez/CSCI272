@@ -62,13 +62,21 @@ using namesapce std;
 
 int main(){
 
-    Mixed m1(3, 4, 5);    // sets object to 3 4/5 
-    Mixed m2(-4, 1, 2);   // sets object to -4 1/2 
-    Mixed m3(0, -3, 5);   // sets object to -3/5 (integer part is 0). 
-    Mixed m4(-1, -2, 4);
-    Mixed m5(4);
-    Mixed m6;
-
+    Mixed m1(1, 2, 3);		//  1 2/3
+    cout << m1++;			//  prints 1 2/3, m1 is now 2 2/3
+    cout << ++m1;			//  prints 3 2/3, m1 is now 3 2/3
+    Mixed m2(2, 5, 3);		//  2 5/3
+    cout << m3.Evaluate()  //  prints 3.6666
+    m3.Simplify()          //  m2 is now 3 2/3
+    cout << m3.Evaluate()  //  prints 3.66666
+    Mixed m3 = m1 + m2;    //  m3 is now 6 4/3
+    m3.Simplify()          //  m3 is now 7 1/3
+    cout << m3.Evaluate()  //  prints 7.3333
+    Mixed m1(1, 2, 3);		//  1 2/3
+    m4.ToFraction()
+    cout << m4;            //  prints 5/3
+    m4.Simplify()
+    cout << m4;            //  prints 1 2/3
 }
 ```
 
