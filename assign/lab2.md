@@ -19,14 +19,40 @@ Create a class called `Mixed`. Objects of type `Mixed` will store and manage rat
         Mixed m5(4);  // sets object to 4 (i.e. 4 and no fractional part). 
         Mixed m6;     // sets object to 0 (default)
 
-    Note that this last constructor will act as a "conversion constructor", allowing automatic type conversions from type int to type Mixed.
+    Note that this last constructor will act as a "conversion constructor", allowing automatic type conversions from type int to type `Mixed`.
 
-3. The Mixed class should have public member functions Evaluate(), ToFraction(), and Simplify(). The Evaluate() function should return a double, the others don't return anything. These functions have no parameters. The names must match the ones here exactly. They should do the following:
+3. The `Mixed` class should have public member function `Print()`. This function should output to the console the mixed number in the same format as above, with the following exceptions: If the object represents a 0, then just display a 0. Otherwise: If the integer part is 0, do not display it. If the fraction part equals 0, do not display it. For negative numbers, the minus sign is always displayed to the left.
 
-    The Evaluate function should return the decimal equivalent of the mixed number.
-    The Simplify function should simplify the mixed number representation to lowest terms. This means that the fraction part should be reduced to lowest terms, and the fraction part should not be an improper fraction (i.e. disregarding any negative signs, the numerator is smaller than the denominator).
-    The ToFraction function should convert the mixed number into fraction form. (This means that the integer part is zero, and the fraction portion may be an improper fraction).
+    Examples:   0  ,  2  ,  -5  ,  3/4  ,  -6/7  ,  -2 4/5  ,  7 2/3 
 
+## Driver Program
+
+The sample driver program that is provided can be found below.
+Note, this is not a comprehensive set of tests. It is just a some code to get you started, illustrating some sample calls.
+
+
+```c++
+#include <iostrem>
+#include "mixed.h"
+using namesapce std;
+
+int main(){
+    Mixed m1(3, 4, 5);    // sets object to 3 4/5
+    m1.Print(); // prints 3 4/5
+    Mixed m2(-4, 1, 2);   // sets object to -4 1/2
+    m2.Print(); // prints -4 1/2
+    Mixed m3(0, -3, 5);   // sets object to -3/5 (integer part is 0).
+    m3.Print(); // prints -3/5
+    Mixed m4(-1, -2, 4);  // bad parameter combination.  Set object to 0.
+    m4.Print(); // prints 0
+    Mixed m4a(1, -2, -4); // bad parameter combination.  Set object to 0.
+    m4a.Print(); // prints 0
+    Mixed m5(4);
+    m5.Print(); // prints: 4
+    Mixed m6;
+    m6.Print(); // prints 0
+}
+```
 
 ## Submission
 

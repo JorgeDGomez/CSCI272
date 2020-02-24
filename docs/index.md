@@ -7,6 +7,7 @@
 - [Introduction to Object-Oriented Programing](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Into-to-OOP.ipynb)
 - [Classes](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Classes.ipynb)
 - [Operators](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Operators.ipynb)
+- [Classes: Advanced](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Classes-Advanced.ipynb)
 - [Inheritance](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Inheritance.ipynb)
 - [Polymorphism](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Polymorphism.ipynb)
 - [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
@@ -16,10 +17,12 @@
 
 
 - [HW1. House](https://github.com/wildart/CSCI272/blob/master/assign/house.md)
+- [HW2. Mixed](https://github.com/wildart/CSCI272/blob/master/assign/mixed.md)
 
 ## Labs
 
 - [Lab1. Class Definition & Objects](https://github.com/wildart/CSCI272/blob/master/assign/lab1.md)
+- [Lab2. Class Constructors](https://github.com/wildart/CSCI272/blob/master/assign/lab2.md)
 
 
 ## Exams
