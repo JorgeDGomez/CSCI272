@@ -42,14 +42,13 @@ Create a class called `Mixed`. Objects of type `Mixed` will store and manage rat
 
 7. Create overloads for the increment and decrement operators (++ and --). You need to handle both the pre- and post- forms (pre-increment, post-increment, pre-decrement, post-decrement). These operators should have their usual meaning -- increment will add 1 to the Mixed value, decrement will subtract 1. Example:
 
-```c++
         Mixed m1(1, 2, 3);		//  1 2/3
         Mixed m2(2, 1, 2);		//  2 1/2
         cout << m1++;			//  prints 1 2/3, m1 is now 2 2/3
         cout << ++m1;			//  prints 3 2/3, m1 is now 3 2/3
         cout << m2--;			//  prints 2 1/2, m2 is now 1 1/2
         cout << --m2;			//  prints 1/2  , m2 is now 0 1/2
-```        
+
 
 ## Driver Program
 
