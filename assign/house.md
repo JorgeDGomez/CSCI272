@@ -34,7 +34,7 @@ Each house object should be pictured as follows:
 
 6. Provide a member function called Summary that displays all information about a house: its base size, perimeter, area, and a picture of what it looks like. When displaying the area (decimal data), always show exactly 2 decimal places. Your output should be in the exact same format as mine, see below.
 
-7. I am providing a sample driver program (called [driver.cpp](driver.cpp)) that uses objects of type House and illustrates sample usage of the member functions. 
+7. I am providing a sample driver program (called [house-driver.cpp](driver.cpp)) that uses objects of type House and illustrates sample usage of the member functions. 
 
 8. I have also provided the output from the [sample execution](hw1sample.txt) of my [driver.cpp](driver.cpp) program.  Your class declaration and definition files must work with my `main` program from the driver, as-is (do not change my program to make your code work!). You are encouraged to write your own driver routines to further test the functionality of your class, as well. Most questions about the required behavior of the class can be determined by carefully examining my driver program and the sample execution. Keep in mind, this is just a sample. Your class must meet the requirements listed above in the specification - not just satisfy this driver program. (For instance, I haven't tested every illegal fill character in this driver program - I've just shown a sample). Your class will be tested with a larger set of calls than this driver program represents.
 

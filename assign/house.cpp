@@ -1,21 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  house.cpp
- *
- *    Description:  
- *
- *        Version:  1.0
- *        Created:  01/29/2020 02:49:50 PM
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #include <iostream>
 #include "house.h"
 
@@ -51,4 +33,3 @@ void House::SetFill(char f){
 
 void House::Draw(){}
 void House::Summary(){}
-
