@@ -17,9 +17,9 @@
 
 
 - [HW1. House](assign/house.md)
-  - [Solution](assign/house-sol.cpp)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/house-sol.cpp)
 - [HW2. Mixed](assign/mixed.md)
-  - [Solution](assign/mixed-sol.cpp)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/mixed-sol.cpp)
 
 ## Labs
 
