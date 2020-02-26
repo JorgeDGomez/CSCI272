@@ -19,12 +19,13 @@
 - [HW1. House](assign/house.md)
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/house-sol.cpp)
 - [HW2. Mixed](assign/mixed.md)
-  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/mixed-sol.cpp)
+  - Solution: [mixed.h](https://github.com/wildart/CSCI272/blob/master/assign/mixed.h), [mixed.cpp](https://github.com/wildart/CSCI272/blob/master/assign/mixed.cpp)
 
 ## Labs
 
 - [Lab1. Class Definition & Objects](assign/lab1.md)
 - [Lab2. Class Constructors](assign/lab2.md)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/mixed-lab2.cpp)
 
 
 ## Exams

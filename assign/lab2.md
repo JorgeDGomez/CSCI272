@@ -27,7 +27,7 @@ Create a class called `Mixed`. Objects of type `Mixed` will store and manage rat
 
 ## Driver Program
 
-The sample driver program that is provided can be found below.
+The [sample driver](https://github.com/wildart/CSCI272/blob/master/assign/mixed-driver.cpp) program that is provided can be found below.
 Note, this is not a comprehensive set of tests. It is just a some code to get you started, illustrating some sample calls.
 
 
