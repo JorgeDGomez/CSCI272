@@ -16,13 +16,15 @@
 ## Assignments
 
 
-- [HW1. House](https://github.com/wildart/CSCI272/blob/master/assign/house.md)
-- [HW2. Mixed](https://github.com/wildart/CSCI272/blob/master/assign/mixed.md)
+- [HW1. House](assign/house.md)
+  - [Solution](assign/house-sol.cpp)
+- [HW2. Mixed](assign/mixed.md)
+  - [Solution](assign/mixed-sol.cpp)
 
 ## Labs
 
-- [Lab1. Class Definition & Objects](https://github.com/wildart/CSCI272/blob/master/assign/lab1.md)
-- [Lab2. Class Constructors](https://github.com/wildart/CSCI272/blob/master/assign/lab2.md)
+- [Lab1. Class Definition & Objects](assign/lab1.md)
+- [Lab2. Class Constructors](assign/lab2.md)
 
 
 ## Exams
@@ -38,9 +40,3 @@
 - [Dev-C++](https://www.bloodshed.net/devcpp.html)
 - [CodeLite](https://codelite.org/)
 - Cygwin: Follow first three installation steps of [this instruction](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/cygwin/)
-
-### Instructions
-
-- These [lab instructions](First-lab-instructions.md) show how to compile your first program using GCC/Cygwin C++ compiler in Windows OS.
-
-- Common [command line commands](cmd.md) for Windows/Linux/MacOS
