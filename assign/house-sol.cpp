@@ -39,39 +39,64 @@ void House::SetFill(char f){
     else
         fill = '*';
 }
+/*
+Size: 3
+    X 
+   X X
+  X * X
+ X * * X
+X X * X X
+  X * X
+  X X X
 
+Size: 4  
+     X 
+    X X
+   X * X
+  X * * X
+ X * * * X
+X X * * X X
+  X * * X
+  X * * X
+  X X X X
+*/
 void House::Draw(){
     // show roof
     int rsize = size + 2;
     bool reven = rsize % 2 == 0;
     int rmid = reven ? rsize / 2 : rsize / 2 + 1;
-    for (int i = 0; i < rsize; ++i){
-        for (int j = 1; j <= rsize; ++j){
-            if (j == rmid - i)
-                cout << border;
-            else if (j > rmid -i && j < rmid + (reven ? i+1 : i))
-                cout << fill;
-            else if (j == rmid + (reven ? i+1 : i))
-                cout << border;
-            else
-                cout << " ";
+    for (int i = 0; i < rsize-1; ++i){
+        // padding
+        for (int j = 1; j < rsize-i; ++j)
+            cout << " ";
+        // roof begins - put border
+        cout << border << " ";
+        // fill roof
+        for (int j = 1; j < i; ++j){
+            cout << fill << " ";
         }
+        // roof end - put border
+        if (i > 0)
+            cout << border;
         cout << endl;
-        if (rmid + i - (reven ? 0 : 1) > size)
-            break;
     }
     // show floor
     for (int i = 1; i <= size; ++i){
-        cout << " ";
+        if (i == 1)
+            cout << border << " ";
+        else
+            cout << "  ";
         for (int j = 1; j <= size; ++j){
             if (i == size)
-                cout << border;
+                cout << border << " ";
             else
                 if (j == 1 || j == size)
-                    cout << border;
+                    cout << border << " ";
                 else
-                    cout << fill;            
+                    cout << fill << " ";            
         }
+        if (i == 1)
+            cout << border << " ";
         cout << endl;
     }
 }
@@ -80,6 +105,7 @@ void House::Summary(){
     cout << "base size = " << size << " units" << endl;
     cout << "perimeter = " << Perimeter() << " units" << endl;
     cout << "area = " << setprecision(2) << Area() << " sq. units" << endl;
+    cout << "House looks like:" << endl;
     Draw();
 }
 

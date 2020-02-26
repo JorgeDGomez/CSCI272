@@ -22,7 +22,7 @@ int main()
   cout << "\nh4 has size = " << h4.GetSize() << " units.\n";
   h4.Draw();
   cout << '\n';
-
+  
   h1.Shrink(); // demonstrate shrink
   h2.Shrink();
   h3.Grow(); // and grow
