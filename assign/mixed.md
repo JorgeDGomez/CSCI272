@@ -29,15 +29,17 @@ Create a class called `Mixed`. Objects of type `Mixed` will store and manage rat
     Examples:   0  ,  2  ,  -5  ,  3/4  ,  -6/7  ,  -2 4/5  ,  7 2/3 
 
 5. Create overloads for all 6 of the comparison operators ( < , > , <= , >= , == , != ). Each of these operations should test two objects of type `Mixed` and return an indication of true or false. You are testing the `Mixed` numbers for order and/or equality based on the usual meaning of order and equality for numbers. (These functions should not do comparisons by converting the `Mixed` numbers to decimals -- this could produce round-off errors and may not be completely accurate).
+    - Hint: You can define most of the operation through a combination of `==` and `<`.
  
 6. Create operator overloads for the 4 standard arithmetic operations ( + , - , * , / ) , to perform addition, subtraction, multiplication, and division of two mixed numbers. Each of these operators will perform its task on two Mixed objects as operands and will return a Mixed object as a result - using the usual meaning of arithmetic operations on rational numbers. Also, each of these operators should return their result in simplified form. (e.g. return 3 2/3 instead of 3 10/15, for example).
 
-    In the division operator, if the second operand is 0, this would yield an invalid result. Since we have to return something from the operator, return 0 as a default (even though there is no valid answer in this case). Example:
+    - Use function `__gcd` (you need to add `#include <algorithm>`) for calculation of the greatest common divisor) for simplification of the fractions. For subtraction and division, you can use inverse rules to simplify your code, see [Inverse of rational number](https://en.wikipedia.org/wiki/Rational_number#Inverse). 
 
+    - In the division operator, if the second operand is 0, this would yield an invalid result. Since we have to return something from the operator, return 0 as a default (even though there is no valid answer in this case). Example:
 
-        Mixed m(1, 2, 3);		// value is 1 2/3
-        Mixed z;			    // value is 0
-        Mixed r = m / z;		// r is 0 (even though this is not good math)
+            Mixed m(1, 2, 3);  // value is 1 2/3
+            Mixed z;           // value is 0
+            Mixed r = m / z;   // r is 0 (even though this is not good math)
 
 
 7. Create overloads for the increment and decrement operators (++ and --). You need to handle both the pre- and post- forms (pre-increment, post-increment, pre-decrement, post-decrement). These operators should have their usual meaning -- increment will add 1 to the Mixed value, decrement will subtract 1. Example:
