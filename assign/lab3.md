@@ -11,10 +11,13 @@ Create file `real.cpp` and add to it a program that accomplishes each of the fol
 - Create a user-defined class `Real` that has a *protected* data member for storing a value of the real number.
     - Create a constructor that accepts one parameter which is used to initialize a class object.
     - Overload the multiplication operator ( `*` ) to multiply two `Real` numbers (5 pts).
-    - Overload the prefix and postfix increment operator ( `++` ) for `Real` number (10 pts).
+    - Overload the division operator ( `/` ) to divide two `Real` numbers (5 pts).
+    - Overload the bitwise XOR operator ( `^` ) to provide exponentiation operation to `Real` number (5 pts). Exponent must have integer type.
     - Implement insertion `<<` operator functions as **friend** functions (5 pts) to output a value of a `Real` number on a screen.
-- **Bonus:** Implement extraction `>>` operator function should determine whether the data entered is valid, and, if not, it should set fail to indicate improper input  (10 pts).
-    - The values can be negative or positive, and it's possible that one of the two values is not provided, in which case the appropriate data member should be set to 0.
+- **Bonus:**
+    - Overload the prefix and postfix increment operator ( `++` ) for `Real` number (5 pts).
+    - Implement extraction `>>` operator function should determine whether the data entered is valid, and, if not, it should set fail to indicate improper input  (5 pts).
+        - The values can be negative or positive, and it's possible that one of the two values is not provided, in which case the appropriate data member should be set to 0.
 
 
 ## Test Driver
@@ -28,12 +31,17 @@ using namespace std;
 int main()
 {
     Real a{20.0}, b{2.5};
+    int c = 3;
     // next line shows: 20 * 2.5 = 50
     cout << a << " * " << b << " = " << (a*b) << endl;
+    // next line shows: 20 / 2.5 = 8.0
+    cout << a << " / " << b << " = " << (a/b) << endl;
+    // next line shows: 20^3 = 8000
+    cout << a << "^" << c << " = " << (a^c) << endl;
     // next line shows: 20 -> 21
-    cout << a++ << " -> " << a << endl;
+    //cout << a++ << " -> " << a << endl;
     // next line shows: 22 -> 22
-    cout << ++a << " -> " << a << endl;
+    //cout << ++a << " -> " << a << endl;
     return 0;
 }
 ```
