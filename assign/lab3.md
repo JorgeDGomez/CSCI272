@@ -12,8 +12,9 @@ Create file `real.cpp` and add to it a program that accomplishes each of the fol
     - Create a constructor that accepts one parameter which is used to initialize a class object.
     - Overload the multiplication operator ( `*` ) to multiply two `Real` numbers (5 pts).
     - Overload the division operator ( `/` ) to divide two `Real` numbers (5 pts).
-    - Overload the bitwise XOR operator ( `^` ) to provide exponentiation operation to `Real` number (5 pts). Exponent must have integer type.
-    - Implement insertion `<<` operator functions as **friend** functions (5 pts) to output a value of a `Real` number on a screen.
+    - Overload the bitwise XOR operator ( `^` ) to provide exponentiation operation to `Real` number (5 pts).
+         - Exponent must have integer type.
+    - Implement insertion `<<` operator functions as **friend** functions to output a value of a `Real` number on a screen (5 pts) .
 - **Bonus:**
     - Overload the prefix and postfix increment operator ( `++` ) for `Real` number (5 pts).
     - Implement extraction `>>` operator function should determine whether the data entered is valid, and, if not, it should set fail to indicate improper input  (5 pts).
