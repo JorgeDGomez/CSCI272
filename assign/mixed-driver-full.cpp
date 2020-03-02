@@ -28,7 +28,7 @@ int main(){
     Mixed m6(1);
     cout << m6 << endl;    //  prints 1
     m6.ToFraction();
-    cout << m6 << endl;    //  prints 1
+    cout << m6 << endl;    //  prints 1/1
     cout << m6-m4 << endl; //  prints -2/3
     Mixed m7(0,3,4);
     cout << m5*m7 << endl; //  prints 2 (= 8/3 * 3/4)
