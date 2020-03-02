@@ -18,7 +18,7 @@ Create file `real.cpp` and add to it a program that accomplishes each of the fol
 - **Bonus:**
     - Overload the prefix and postfix increment operator ( `++` ) for `Real` number (5 pts).
     - Implement extraction `>>` operator function should determine whether the data entered is valid, and, if not, it should set fail to indicate improper input  (5 pts).
-        - The values can be negative or positive, and it's possible that one of the two values is not provided, in which case the appropriate data member should be set to 0.
+        - The values can be negative or positive
 
 
 ## Test Driver
