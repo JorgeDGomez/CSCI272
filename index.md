@@ -27,6 +27,7 @@
 - [Lab2. Class Constructors](assign/lab2.md)
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/mixed-lab2.cpp)
 - [Lab3. Operators](assign/lab3.md)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/real-lab3.cpp)
 
 
 ## Exams
