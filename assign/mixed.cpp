@@ -198,6 +198,11 @@ ostream& operator<<(ostream& o, const Mixed& m)
 
 istream& operator>>(istream& o, Mixed& m)
 {
+    int a, b, c;
+    o >> a;
+    o >> b;
+    o.get();
+    o >> c;
+    m = Mixed(a,b,c);
     return o;
 }
-
