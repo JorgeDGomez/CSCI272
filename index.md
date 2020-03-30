@@ -20,6 +20,9 @@
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/house-sol.cpp)
 - [HW2. Mixed](assign/mixed.md)
   - Solution: [mixed.h](https://github.com/wildart/CSCI272/blob/master/assign/mixed.h), [mixed.cpp](https://github.com/wildart/CSCI272/blob/master/assign/mixed.cpp)
+- [HW3. Simulation](assign/simulation.md)
+  - Solution: [animal.cpp](https://github.com/wildart/CSCI272/blob/master/assign/animal.cpp), [parasite.cpp](https://github.com/wildart/CSCI272/blob/master/assign/parasite.cpp)
+
 
 ## Labs
 
