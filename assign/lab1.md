@@ -77,6 +77,6 @@ You are required to test that your submission works properly before submission. 
 
 Program submissions should be done through the Blackboard.
 
-For HW #1, submit the following files:
+For lab #1, submit the following files:
 
 - `lab1.cpp`
