@@ -22,6 +22,8 @@
   - Solution: [mixed.h](https://github.com/wildart/CSCI272/blob/master/assign/mixed.h), [mixed.cpp](https://github.com/wildart/CSCI272/blob/master/assign/mixed.cpp)
 - [HW3. Simulation](assign/simulation.md)
   - Solution: [animal.cpp](https://github.com/wildart/CSCI272/blob/master/assign/animal.cpp), [parasite.cpp](https://github.com/wildart/CSCI272/blob/master/assign/parasite.cpp)
+- [HW4. Epidemy](assign/epidemy.md)
+  - Solution: [agent.hpp](https://github.com/wildart/CSCI272/blob/master/assign/agent.cpp), [epidemy.cpp](https://github.com/wildart/CSCI272/blob/master/assign/epidemy.cpp)
 
 
 ## Labs
@@ -32,6 +34,8 @@
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/mixed-lab2.cpp)
 - [Lab3. Operators](assign/lab3.md)
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/real-lab3.cpp)
+- [Lab4. Inheritance](assign/lab4.md)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/group-lab4.cpp)
 
 
 ## Exams
