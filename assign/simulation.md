@@ -30,6 +30,82 @@ The simulation is provided to you in file [simulation.cpp](simulation.cpp).
     - program compiles without errors and warnings
     - use proper coding style (see below)
 
+## Program Output Example
+```
+>./sim
+Parasite is born with 95.4664% reproduction rate, and 18.9821% resistance
+Parasite is born with 15.7586% reproduction rate, and 82.8199% resistance
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite is born with 13.7885% reproduction rate, and 68.5999% resistance
+Parasite is born with 51.0179% reproduction rate, and 49.4728% resistance
+Animal object is created
+Begin simulation: 
+This animal has immunity rate: 30%, and 5 parasites
+Step 1: 
+Parasite 0 is dead: This parasite has reporoduction rate: 95.4664%, and resistance rate: 18.9821
+Parasite 1 cannot reproduce
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite 3 cannot reproduce
+Parasite is born with 51.0179% reproduction rate, and 49.4728% resistance
+Animal takes drugs
+This animal has immunity rate: 40%, and 6 parasites
+Step 2: 
+Parasite 0 cannot reproduce
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite 2 cannot reproduce
+Parasite is born with 51.0179% reproduction rate, and 49.4728% resistance
+Parasite 4 cannot reproduce
+Parasite is born with 51.0179% reproduction rate, and 49.4728% resistance
+Animal takes drugs
+This animal has immunity rate: 50%, and 9 parasites
+Step 3: 
+Parasite is born with 15.7586% reproduction rate, and 82.8199% resistance
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite 2 cannot reproduce
+Parasite 3 is dead: This parasite has reporoduction rate: 51.0179%, and resistance rate: 49.4728
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite 5 is dead: This parasite has reporoduction rate: 51.0179%, and resistance rate: 49.4728
+Parasite is born with 83.9186% reproduction rate, and 53.3313% resistance
+Parasite 7 is dead: This parasite has reporoduction rate: 51.0179%, and resistance rate: 49.4728
+Parasite 8 is dead: This parasite has reporoduction rate: 51.0179%, and resistance rate: 49.4728
+Animal takes drugs
+This animal has immunity rate: 60%, and 9 parasites
+Step 4: 
+Parasite 0 cannot reproduce
+Parasite 1 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Parasite 2 cannot reproduce
+Parasite 3 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Parasite 4 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Parasite is born with 15.7586% reproduction rate, and 82.8199% resistance
+Parasite 6 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Parasite 7 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Parasite 8 is dead: This parasite has reporoduction rate: 83.9186%, and resistance rate: 53.3313
+Animal takes drugs
+This animal has immunity rate: 70%, and 4 parasites
+Step 5: 
+Parasite 0 cannot reproduce
+Parasite 1 is dead: This parasite has reporoduction rate: 13.7885%, and resistance rate: 68.5999
+Parasite 2 cannot reproduce
+Parasite 3 cannot reproduce
+Animal takes drugs
+This animal has immunity rate: 80%, and 3 parasites
+Step 6: 
+Parasite 0 cannot reproduce
+Parasite 1 cannot reproduce
+Parasite is born with 15.7586% reproduction rate, and 82.8199% resistance
+Animal takes drugs
+This animal has immunity rate: 90%, and 4 parasites
+Step 7: 
+Parasite 0 is dead: This parasite has reporoduction rate: 15.7586%, and resistance rate: 82.8199
+Parasite 1 is dead: This parasite has reporoduction rate: 15.7586%, and resistance rate: 82.8199
+Parasite 2 is dead: This parasite has reporoduction rate: 15.7586%, and resistance rate: 82.8199
+Parasite 3 is dead: This parasite has reporoduction rate: 15.7586%, and resistance rate: 82.8199
+Animal takes drugs
+End simulation: 
+This animal has immunity rate: 100%, and 0 parasites
+Animal object is deleted
+```
+
 
 ## Submission
 
