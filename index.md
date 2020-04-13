@@ -36,6 +36,8 @@
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/real-lab3.cpp)
 - [Lab4. Inheritance](assign/lab4.md)
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/group-lab4.cpp)
+- [Lab5. Polymorphism](assign/lab5.md)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/norm-lab5.cpp)
 
 
 ## Exams
