@@ -1,3 +1,6 @@
+<script>MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}};</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 # Lab 5
 
 ## Problem
@@ -22,11 +25,11 @@ Write a program that accomplishes each of the following:
 - Derive a class `Complex` from `Real` and add additional data member for the imaginary part of the number (10 pts).
     - Create a constructor that accepts two parameters which are used to initialize a class object.
     - Implement necessary methods.
-    - The norm of the complex number $a+bi$ is $\sqrt{a^2 + b^}$.
+    - The norm of the complex number $a+bi$ is $\sqrt{a^2 + b^2}$.
 - Derive a class `Trinomial` from `Complex` and add additional data member for the the exponents of algebraic coefficients (10 pts).
     - Create a constructor that accepts three parameters which are used to initialize a class object.
     - Implement necessary methods.
-    - The norm of the polinomial $p = \sum_{i=1}^k a_i x^i$ is $\sqrt{\sum_i a_i^2}$.
+    - The norm of the polinomial $p = \sum_i a_i x^i$ is $\sqrt{\sum_i a_i^2}$.
 - Create a user-defined class `Vector` from `Group` that has a *protected* data member that would contain a real vector values (10 pts).
     - Create a constructor that accepts three parameter which are used to initialize a class object.
     - Implement necessary methods.
