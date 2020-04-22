@@ -38,6 +38,8 @@
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/group-lab4.cpp)
 - [Lab5. Polymorphism](assign/lab5.md)
   - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/norm-lab5.cpp)
+- [Lab6. Templates](assign/lab6.md)
+  - [Solution](https://github.com/wildart/CSCI272/blob/master/assign/dist-lab6.cpp)
 
 
 ## Exams
