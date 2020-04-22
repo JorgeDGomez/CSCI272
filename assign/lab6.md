@@ -1,16 +1,11 @@
 <script>MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}};</script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-
 # Lab 6
 
 ## Problem
 
-Calculate a **distance** between two points in various metric spaces. You can use the Euclidian distance which is defined by the following formula:
-
-$$d(x,y) = \sqrt{\sum_{i=1}^N (x_i-y_i)^2}$$
-
-where $N$ is a dimension of the space.
+Calculate a **distance** between two points in various metric spaces. You can use the Euclidian distance which is defined by the following formula: $d(x,y) = \sqrt{\sum_{i=1}^N (x_i-y_i)^2}$, where $N$ is a dimension of the space.
 
 You can use this knowledge to calculate `distance` in various metric spaces represented by various data types: `Real`, `Complex`, and `Vector3D`.
 
