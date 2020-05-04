@@ -12,6 +12,8 @@
 - [Polymorphism](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Polymorphism.ipynb)
 - [Templates](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Templates.ipynb)
 - [Exceptions](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Exceptions.ipynb)
+- [Pointers](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Pointers.ipynb)
+- [Patterns](https://nbviewer.jupyter.org/github/wildart/CSCI272/blob/master/notebooks/Patters.ipynb)
 
 ## Assignments
 
