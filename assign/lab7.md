@@ -101,6 +101,6 @@ You are required to test that your submission works properly before submission. 
 
 Program submissions should be done through the Blackboard.
 
-For Lab #5, submit the following files:
+For Lab #7, submit the following files:
 
 - `darray.cpp`
