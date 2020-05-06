@@ -11,6 +11,7 @@ Write a program that accomplishes each of the following:
 - Write a class `BoundedDynamicArray` that dynamically grow up to a specified bound.
 - Implement method `push_back` that add element to array. This method should throw an exception if you'll try to add more elements then the size of the array.
 - Implement operator `[]` to access elements of the array.
+- You **must not implement** the destructor `BoundedDynamicArray` class.
 - Your code have to be compiled without errors and the test driver must be executed without error.
 
 
@@ -44,7 +45,7 @@ public:
     ~Resource() { used = 0; cout << "Delete resource " << id <<  endl; }
 };
 
-int resource::count = 0;
+int Resourse::count = 0;
 
 int main() {
     const int ArraySize = 3;
