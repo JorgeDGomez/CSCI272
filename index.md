@@ -26,7 +26,7 @@
   - Solution: [animal.cpp](https://github.com/wildart/CSCI272/blob/master/assign/animal.cpp), [parasite.cpp](https://github.com/wildart/CSCI272/blob/master/assign/parasite.cpp)
 - [HW4. Epidemy](assign/epidemy.md)
   - Solution: [agents.hpp](https://github.com/wildart/CSCI272/blob/master/assign/agents.hpp), [epidemy.cpp](https://github.com/wildart/CSCI272/blob/master/assign/epidemy.cpp)
-
+- [HW5. Student Report](assign/students.md)
 
 ## Labs
 
