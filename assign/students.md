@@ -53,7 +53,7 @@ You will design a set of classes for storing student information, along with a m
 
 - Within each subject in the output file, list the students in alphabetic order, sorted by last name. Do not change the given case (upper/lower case) of the names that were read from the input file when you print the output file, and do not change the output file format. Just print the records in order by last name. This sort needs to be true alphabetical (not just the "lexicographical" sort). 
 
-## Sample input file
+## Sample [Input File](studentdata.txt)
 
 ```
 6
@@ -71,7 +71,7 @@ Lewinsky, Monica
 History 60 72 78
 ```
 
-## Sample input file
+## Sample Output File
 
 ```
 Student Grade Summary 
